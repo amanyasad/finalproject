@@ -1,0 +1,20 @@
+.test{
+    height: 695px;
+    width: 100%;
+}
+.style{
+    border-radius: 50%;
+    background-color: rgb(25, 103, 143);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+.buttonTwo{
+    background-color:rgb(15, 93, 129);
+    color: #fff ;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
