@@ -17,7 +17,7 @@ export default function Home() {
         </div>
         <div className='container'>
             <div className='row'>
-                <div className='col-md-6 mt-5 ms-5'>
+                <div className='col-md-6 mt-5 '>
                     <div className='item'>
                         <h1>Don’t waste your time!</h1>
                         <p className='fs-4 mt-3 mb-3'>
@@ -31,14 +31,14 @@ export default function Home() {
                 </div>
                 <div className='col-md-4 mt-5'>
                     <div className='item'>
-                        <img src={image}></img>
+                        <img src={image} className='w-100'></img>
                     </div>
                 </div>
             </div>
 
-            <div className='row my-5'>
+            <div className='row my-5 w-100'>
                 <div className='col-md-4'>
-                    <img className='mx-5' src={img}/>
+                    <img className=' w-100' src={img}/>
                 </div>
                 <div className='col-md-8'>
                     <div className='mx-5'>
@@ -53,7 +53,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className='row my-5 ms-5 gx-5 '>
+            <div className='row my-5  '>
                 <h1 className='my-5'>Why is this site worth using?</h1>
                 <div className='col-md-3'>
                     <div className='item mt-2'>
